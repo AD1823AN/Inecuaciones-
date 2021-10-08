@@ -2,8 +2,8 @@
 % Octave Script
 % title               :inecuaciones de primer grado , segundo grado y valor absoluto 
 % Description         :Script para poder ejecutar inecuaciones de primer grado ,segundo grado y de valor abosuto 
-% Author              :Adriana Trejo Patricio , jafet  (Adri)
-% Date                :20210930
+% Author              :Adriana Trejo Patricio , Jafet Martinez Meza,Jonatan Aparicio Quintanar  
+% Date                :202123172,202123653,202123048
 % Version             :1
 % Usage               :octave> /path/inecuaciones 
 % Notes               :Requiere aplicacion octave , usar su linea de comandos
@@ -23,7 +23,12 @@ solve (2*x^2 - x < 2*x-1)
 "volor absoluto"
 disp ("valor absoluto");abs (x+8) 
 disp ("valor absoluto");abs (2*x+3 )
- 
+abs(x+6)
+abs(2*x+3)
+syms x 
+f=x-1
+sobplot(3,3,1)
+ezplot(f)
  
 
 
